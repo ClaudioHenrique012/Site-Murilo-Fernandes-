@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #18181b 70%, #23232a 100%);
+  background: black;
   color: #f3f3f3;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   min-height: 100vh;
@@ -11,7 +11,7 @@ body {
 /* Header */
 header {
   width: 100%;
-  background: #23232a;
+  background: #000000;
   padding: 32px 0 16px 0;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
@@ -21,7 +21,7 @@ header h1 {
   margin: 0;
   font-size: 2.5em;
   letter-spacing: 2px;
-  color: #d1cfc2;
+  color: #ffffff;
 }
 
 nav ul {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd700;
+  color: #ffd500;
 }
 
 /* Sections ocupando toda a largura */
@@ -189,7 +189,7 @@ button:hover {
 /* Footer */
 footer {
   width: 100%;
-  background: #23232a;
+  background: #000000;
   color: #ffd700;
   text-align: center;
   padding: 24px 0;
