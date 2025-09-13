@@ -18,6 +18,7 @@ header {
 }
 
 header h1 {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   font-size: 2.5em;
   letter-spacing: 2px;
@@ -38,11 +39,13 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1em;
-  transition: color 0.2s;
+  transition: color 0.5s;
+  position: relative;
 }
 
 nav a:hover {
-  color: #ffd500;
+  color: #bb9525;
+  transform: scale(1.1);
 }
 
 /* Sections ocupando toda a largura */
@@ -62,6 +65,11 @@ section {
   margin: 0;
   overflow: hidden;
   border-radius: 0;
+}
+.carrousel-container h1 {
+  color: #ffd700;
+  margin-bottom: 16px;
+  font-size: 2em;
 }
 
 .carousel-slide {
@@ -93,7 +101,7 @@ section {
   cursor: pointer;
   border-radius: 50%;
   z-index: 2;
-  transition: background 0.2s;
+  transition: 0.2s;
 }
 
 .carousel-btn:hover {
@@ -143,7 +151,7 @@ section {
   padding: 14px;
   border-radius: 8px;
   border: 1px solid rgba(255, 215, 0, 0.08);
-  color: #ffd700;
+  color: #a4a39e;
   font-weight: bold;
 }
 
@@ -265,15 +273,43 @@ footer {
 
 .home {
   display: flex;
-  height: auto;
+  height: 100vh;
 }
 
-.home_2 {
+.home h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  margin: auto;
+  max-width: 800px;
+  padding: 0 16px;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.social-links {
+  margin-top: 24px;
   display: flex;
-
-  align-items: center;
-  height: auto;
+  justify-content: center;
+  gap: 24px;
 }
 
-.social_links {
+.social-links a {
+  color: #cbba70;
+  font-size: 1.5em;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #d2a017;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.img-home {
+  background: rgba(0, 0, 0, 0.549);
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
 }
