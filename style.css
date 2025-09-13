@@ -262,3 +262,18 @@ footer {
     padding: 0 8px;
   }
 }
+
+.home {
+  display: flex;
+  height: auto;
+}
+
+.home_2 {
+  display: flex;
+
+  align-items: center;
+  height: auto;
+}
+
+.social_links {
+}
