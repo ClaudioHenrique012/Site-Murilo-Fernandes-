@@ -8,7 +8,8 @@ let currentIndex = 0;
 function showSlide(index) {
   if (index < 0) index = images.length - 1;
   if (index >= images.length) index = 0;
-  slide.style.transform = `translateX(-${index * 100}%)`;
+  slide.style.transform = `translateX(-${index * 100}vw)`;
+
   currentIndex = index;
 }
 
@@ -38,5 +39,5 @@ carouselContainer.addEventListener("mouseenter", () =>
 carouselContainer.addEventListener("mouseleave", () => {
   autoSlide = setInterval(() => {
     showSlide(currentIndex + 1);
-  }, 7000);
+  }, 4000);
 });
